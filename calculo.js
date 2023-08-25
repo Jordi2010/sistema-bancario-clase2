@@ -56,6 +56,7 @@ const depositoTexto = document.getElementById('depositoActual'),
 
         if(Number(valorRetiro)>Number(balanceTexto.innerText)){
             alert("No hay dinero suficiente")
+            //ESTO MODIFICAR alert("Terricola")
             return
         }
 
